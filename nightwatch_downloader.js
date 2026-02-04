@@ -1,4 +1,4 @@
-javascript:(function() {
+(function() {
   var editButtons = document.querySelectorAll('.nw-table-column__col-actions a');
   var index = 0;
   var windows = [];
