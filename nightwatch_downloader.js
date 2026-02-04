@@ -11,7 +11,7 @@ javascript:(function() {
       windows.push(newWindow);
 
       newWindow.addEventListener('load', function() {
-        // Wait for the Download abutton to appear
+        // Wait for the Download button to appear
         var downloadButtonInterval = setInterval(function() {
           var downloadButton = findDownloadButton(newWindow.document);
           if (downloadButton) {
